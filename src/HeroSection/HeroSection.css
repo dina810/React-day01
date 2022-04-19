@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    width: 100%;
+    height: 60vh;
+    border: 2px solid red;
+    background:linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.753)), url(../../public/1.PNG) no-repeat center / cover; 
+    color: white;
+    filter: grayscale(100%);
+
+
+}
+.container{
+    width: 90%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container h2 {
+    text-align: center;
+}
+.container h1 {
+    margin-top: 20px;
+}
+.container button{
+    color: white;
+    margin-left: 120px;
+    margin-top: 50px;
+    border:2px solid white;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+
+/* ************** */
+
+.bio{
+
+    width: 100%;
+    height: 60vh;
+    color: black;
+    filter: grayscale(100%);
+    background-color: aliceblue;
+
+}
+
+.bio button{
+    margin-left: 0px;
+}
+
+.bio h2{
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+/* ************** */
+
+.skills{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.753)); 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.skills h2{
+    text-shadow: 2px 2px 4px #eee5e59d;
+}
+.skills p{
+    margin-bottom: 60px;
+}
+
+.skills h5{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    text-align: center;
+    /* display:inline-block;
+    width: auto; */
+
+}
+
+.skills li{
+    list-style-type: none;
+    padding:10px;
+    text-align: center;
+}
+
+.col-2{
+    background-color: rgb(109, 105, 105);
+  }
+  .col-6{
+    background-color: rgb(200, 196, 196);
+  }
+  .last{
+    background-color: aliceblue;
+  }
+  #focus{
+    margin-top: 90px;
+  }
+  #javascript{
+    background-color: rgb(200, 196, 196);
+  }
+  /* ************** */
+
+.container{
+    /* border: 2px solid black; */
+}
+.portolio{
+
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-color: aliceblue;
+    padding-top: 60px;
+
+}
+.portolio .container{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.portolio h1 {
+
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    padding-bottom: 30px;
+}
+
+#div1{
+    
+    width: 25%;
+    height: 200PX;
+    box-shadow: 10px 10px 5px rgb(84, 85, 86);
+    color: aliceblue;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(38, 35, 41);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 3px;
+    
+
+  }
+  #div{
+   
+    width: 25%;
+    height: 200PX;
+    color: aliceblue;
+    box-shadow: 10px 10px 5px rgb(84, 85, 86);
+    margin-left: 30px;
+    margin-bottom: 50px;
+    background-color: rgb(178, 168, 199);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 3px;
+
+  }
+  /* ************** */
+
+  .ContactMe
+{
+    background-color: rgba(116, 95, 218, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(116, 95, 218, 0.2), 0 6px 20px 0 rgba(116, 95, 218, 0.308);
+    margin-left: 150px;
+    width: 120px;
+    height: 40px;
+}
+.Skills
+{
+    background-color: rgb(14, 14, 15);
+}
+ 

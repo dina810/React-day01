@@ -1,24 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+
+ import HeroSection from './HeroSection/HeroSection'
+ import BioSection from './BioSection/BioSection';
+ import SkillsSection from './SkillsSection/SkillsSection'
+ import PortolioSection from './PortolioSection/PortolioSection'
+ import FooterSection from './FooterSection/FooterSection'
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+     <HeroSection/>
+     <BioSection/>
+     <SkillsSection/> 
+     <PortolioSection/>
+     <FooterSection/> 
+     
+    
+    
+    
+    {/* <div className='App'>
+      <header className='App-header'>
+        <h1>Hello React Day1</h1>
       </header>
     </div>
+    <h1>dinaaa</h1> */}
+    {/* <HeroSection/> */}
+    <br/>
+     {/* <BioSection/> */}
+    {/* <SkillSection/> */}
+    {/* <PortolioSection/> */}
+    {/* <FooterSection/>  */}
+    {/* <ExampleClassApp/> */}
+    
+    </>
+  
   );
 }
 
